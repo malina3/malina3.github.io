@@ -89,7 +89,7 @@ header h2 {
 }
 
 .inner {
-  width: 620px;
+  width: 70%;
   margin: 0 auto;
 }
 
@@ -324,6 +324,12 @@ footer a {
 }
 footer a:hover {
   color: #444;
+}
+
+/* CLASSES */
+.hbar {
+  background-color: #D1632A;
+  height: 10px;
 }
 
 /* MISC */
