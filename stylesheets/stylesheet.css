@@ -331,6 +331,15 @@ footer a:hover {
   height: 10px;
 }
 
+.headframe {
+  width: 100%;
+  height: 150px;
+}
+
+.bodyframe {
+  overflow: hidden;
+}
+
 /* MISC */
 .clearfix:after {
   display: block;
