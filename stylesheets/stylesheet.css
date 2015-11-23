@@ -357,6 +357,99 @@ footer a:hover {
   margin-top: 10px;
 }
 
+/* EXPERIENCE TILES*/
+.exprow
+{
+   background-color: #FFFFFF;
+   width: 90%;
+   height: 270px;
+}
+
+.expblock
+{
+   width: 27%;
+   height: 220px;
+   background-color: #FFFFFF;
+   display: inline-block;
+   border-radius: 25px;
+   border: 3px solid #d1632a;
+   text-align: center;
+   color: #414141;
+   vertical-align: top;
+   -webkit-transition-duration: 0.4s;
+   transition-duration: 0.4s;
+   margin: 25px;
+}
+
+.expblock:hover
+{
+    background-color: #414141;
+   color: #FFFFFF;
+}
+
+.exptitle
+{
+   font-family: "Chivo","Helvetica Neue",Helvetica,Arial,serif;
+   font-size: 250%;
+   font-weight: bold;
+   line-height: 0%;
+   color: #d1632a;
+}
+
+.expdesc
+{
+   font-family: arial;
+   font-size: 100%;
+   font-style: italic;
+   color: inherit;
+}
+
+.explist
+{
+   font-family: arial;
+   font-size: 90%;
+   text-align: left;
+}
+
+.detailsbutton {
+  display: inline-block;
+  border-radius: 15px;
+  background-color: #d1632a;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 100%;
+  width: 120px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.detailsbutton span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.detailsbutton span:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.detailsbutton:hover span {
+  padding-right: 25px;
+}
+
+.detailsbutton:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
 /* MISC */
 .clearfix:after {
   display: block;
