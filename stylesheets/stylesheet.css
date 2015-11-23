@@ -255,6 +255,7 @@ h3 {
   font-size: 18px;
   font-weight: bold;
   color: #D1632A;
+  line-height: 50%;
 }
 
 h4 {
@@ -326,9 +327,14 @@ footer a:hover {
 }
 
 /* CLASSES */
-.hbar {
+.hbar1 {
   background-color: #D1632A;
   height: 10px;
+}
+
+.hbar2 {
+  background-color: #414141;
+  height: 2px;
 }
 
 .headframe {
