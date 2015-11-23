@@ -390,7 +390,7 @@ footer a:hover {
 
 .expblock:hover
 {
-    background-color: #414141;
+   background-color: #414141;
    color: #FFFFFF;
 }
 
@@ -417,6 +417,7 @@ footer a:hover {
    font-family: arial;
    font-size: 90%;
    text-align: left;
+   list-style-image: url('Arrow.png');
 }
 
 .expimage
