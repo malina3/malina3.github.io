@@ -340,6 +340,17 @@ footer a:hover {
   overflow: hidden;
 }
 
+.quicklinkbox {
+  float: right;
+  line-height: 0%;
+  text-align: center;
+  width: 20%;
+  border: 2px solid #D1632A;
+  border-radius: 10px;
+  margin-right: 5px;
+  margin-top: 10px;
+}
+
 /* MISC */
 .clearfix:after {
   display: block;
