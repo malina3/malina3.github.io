@@ -298,7 +298,8 @@ blockquote {
 ul li {
   list-style-position: inside;
   list-style: disc;
-  padding-left: 20px;
+  padding-left: 0px;
+  margin-left: 20px;
 }
 
 ol li {
@@ -384,10 +385,11 @@ footer a:hover {
 .exptitle
 {
    font-family: "Chivo","Helvetica Neue",Helvetica,Arial,serif;
-   font-size: 250%;
+   font-size: 150%;
    font-weight: bold;
    line-height: 0%;
    color: #d1632a;
+   margin-top: 20px;
 }
 
 .expdesc
@@ -411,6 +413,12 @@ footer a:hover {
   height: 100px;
   float: right;
   margin: 10px;
+  border-radius: 15px;
+}
+
+.expcontentblock {
+  display: inline;
+  height: 75%;
 }
 
 .detailsbutton {
