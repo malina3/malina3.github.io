@@ -556,17 +556,19 @@ footer a:hover {
 
   .exptitle
   {
-    font-size: 48px;
+    font-size: 40px;
   }
 
   .expdesc
   {
     font-size: 32px;
+    line-height: 80%;
   }
 
   .explist
   {
     font-size: 32px;
+    line-height: 80%;
   }
 }
 
