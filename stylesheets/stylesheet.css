@@ -460,6 +460,20 @@ footer a:hover {
   border-radius: 15px;
 }
 
+.expimgwrap
+{
+  width: 100px;
+  height: 100px;
+  display: inline;
+}
+
+.expinteresting
+{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
 .expcontentblock {
   display: inline;
   height: 75%;
