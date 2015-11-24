@@ -305,7 +305,7 @@ ul li {
   list-style: disc;
   padding-left: 0px;
   margin-left: 25px;
-  list-style-image: url('http://alexandermalin.me/images/Arrow.png');
+  list-style-image: url("images/icons/Arrow.png");
 }
 
 ol li {
