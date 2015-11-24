@@ -553,6 +553,21 @@ footer a:hover {
   {
     width: 94%;
   }
+
+  .exptitle
+  {
+    font-size: 18px;
+  }
+
+  .expdesc
+  {
+    font-size: 14px;
+  }
+
+  .explist
+  {
+    font-size: 14px;
+  }
 }
 
 /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
