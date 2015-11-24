@@ -487,7 +487,7 @@ footer a:hover {
   cursor: pointer;
   display: inline-block;
   position: relative;
-  transition: all 0.5s;
+  transition: all 0s;
   transition-delay: 0s;
 }
 
@@ -497,7 +497,7 @@ footer a:hover {
   opacity: 0;
   top: 0;
   right: -20px;
-  transition: all 0.5s;
+  transition: all 0s;
   transition-delay: 0s;
 }
 
