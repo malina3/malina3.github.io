@@ -416,7 +416,6 @@ footer a:hover {
 
 .expblock:hover img
 {
-  margin: 10px;
   transform: translate3d(0, -15px, 0);
 }
 
