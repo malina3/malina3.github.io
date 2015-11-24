@@ -474,7 +474,7 @@ footer a:hover {
   text-align: center;
   font-size: 100%;
   width: 120px;
-  transition: all 0.5s;
+  transition: 0s;
   cursor: pointer;
   margin: 5px;
   position: absolute;
@@ -487,7 +487,8 @@ footer a:hover {
   cursor: pointer;
   display: inline-block;
   position: relative;
-  transition: inherit;
+  transition: all 0.5s;
+  transition-delay: 0s;
 }
 
 .detailsbutton span:after {
@@ -496,7 +497,8 @@ footer a:hover {
   opacity: 0;
   top: 0;
   right: -20px;
-  transition: inherit;
+  transition: all 0.5s;
+  transition-delay: 0s;
 }
 
 .detailsbutton:hover span {
