@@ -389,11 +389,33 @@ footer a:hover {
    position: relative;
 }
 
+.expblock button
+{
+  visibility: hidden;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+
+.expblock img
+{
+  margin: 25px 10px 10px;
+}
+
 .expblock:hover
 {
    background-color: #414141;
    color: #FFFFFF;
    height: 300px;
+}
+
+.expblock:hover button
+{
+  visibility: visible;;
+}
+
+.expblock:hover img
+{
+  margin: 10px;
 }
 
 .expblock:hover ul
