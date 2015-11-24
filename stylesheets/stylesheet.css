@@ -548,6 +548,11 @@ footer a:hover {
     width: 94%;
     margin: 0 auto;
   }
+
+  .expblock
+  {
+    width: 94%;
+  }
 }
 
 /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
