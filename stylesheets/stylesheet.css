@@ -411,7 +411,7 @@ footer a:hover {
 
 .expblock:hover button
 {
-  visibility: visible;
+  visibility: hidden;
 }
 
 .expblock:hover img
