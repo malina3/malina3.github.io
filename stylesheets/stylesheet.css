@@ -545,6 +545,9 @@ footer a:hover {
 .skillblock em
 {
   visibility: hidden;
+  font-family: arial;
+  font-size: 100%;
+  color: inherit;
 }
 
 .skillblock:hover
@@ -562,6 +565,15 @@ footer a:hover {
 .skillblock:hover ul
 {
   visibility: visible;
+}
+
+.skilllist
+{
+   font-family: arial;
+   font-size: 90%;
+   text-align: left;
+   list-style-image: url('images/Arrow.png');
+   visibility: hidden;
 }
 
 /* MISC */
