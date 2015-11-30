@@ -533,7 +533,6 @@ footer a:hover {
    display: inline-block;
    border-radius: 25px;
    border: 3px solid #d1632a;
-   text-align: center;
    color: #414141;
    vertical-align: top;
    -webkit-transition-duration: 0.4s;
@@ -555,7 +554,8 @@ footer a:hover {
 {
    background-color: #414141;
    color: #FFFFFF;
-   height: 300px;
+   height: auto;
+   overflow: auto;
 }
 
 .skillblock:hover em
