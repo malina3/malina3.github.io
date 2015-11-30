@@ -524,6 +524,46 @@ footer a:hover {
   right: 0;
 }
 
+/* SKILLS */
+.skillblock
+{
+   width: 350px;
+   height: 50px;
+   background-color: #FFFFFF;
+   display: inline-block;
+   border-radius: 25px;
+   border: 3px solid #d1632a;
+   text-align: center;
+   color: #414141;
+   vertical-align: top;
+   -webkit-transition-duration: 0.4s;
+   transition-duration: 0.4s;
+   margin: 5px;
+   position: relative;
+}
+
+.skillblock em
+{
+  visibility: hidden;
+}
+
+.skillblock:hover
+{
+   background-color: #414141;
+   color: #FFFFFF;
+   height: 300px;
+}
+
+.skillblock:hover em
+{
+  visibility: visible;
+}
+
+.skillblock:hover ul
+{
+  visibility: visible;
+}
+
 /* MISC */
 .clearfix:after {
   display: block;
